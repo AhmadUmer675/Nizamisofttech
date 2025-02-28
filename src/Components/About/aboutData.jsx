@@ -7,7 +7,7 @@ import Zain from "/zain.jpeg";
 import kashif from "/kashif.jpeg";
 import aqib from "/aqib.jpeg";
 import usama from "/usama.jpeg";
-import ahmad from "/ahmad.jpeg";
+import ahmad from "/au.jpeg";
 import huraira from "/huraira.jpeg";
 import tahir from "/tahir.jpeg";
 import img from "/designerbg.png";

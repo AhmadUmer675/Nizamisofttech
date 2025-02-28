@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: "poppins", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  position: relative;
+}
+.hw {
+  position: absolute;
+}
+.model {
+  animation-name: model;
+  animation-duration: 1s;
+}
+@keyframes model {
+  0% {
+    transform: translateX(100px);
+  }
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 14px;
+  width: 83%;
+  border-start-start-radius: 50%;
+  border-end-start-radius: 100%;
+
+  height: 3px;
+  background-color: rgb(64, 26, 200);
+  animation: link alternate 0.5s ease;
+}
+
+@keyframes link {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: full;
+  }
+}
+.nav-link::before {
+  content: "";
+  position: absolute;
+  right: 12px;
+  bottom: 5px;
+  width: 83%;
+  border-end-end-radius: 50%;
+  border-start-end-radius: 100%;
+  height: 3px;
+  background-color: rgb(64, 26, 200);
+  animation: link 0.5s ease;
+}
+
+.spin {
+  animation: spin 2s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    scale: 0.9;
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+  }
+  50% {
+    scale: 1;
+  }
+  100% {
+    scale: 0.9;
+    transform: rotateX(360deg);
+    transform: rotate(180deg);
+  }
+}

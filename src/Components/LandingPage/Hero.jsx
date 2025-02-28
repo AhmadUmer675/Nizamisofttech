@@ -95,7 +95,10 @@ const Hero = () => {
                   </a>
                 </li>
                 <li className="transition-all hover:scale-125">
-                  <a href="" className=" text-blue">
+                  <a
+                    href="https://www.linkedin.com/company/ns_tech/?viewAsMember=true"
+                    className=" text-blue"
+                  >
                     <FaLinkedin className="delay-100 animate-bounce" />
                   </a>
                 </li>

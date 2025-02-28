@@ -17,7 +17,7 @@ const DesigningT = () => {
         transition={{ duration: 0.8 }}
         className="  my-[7rem] text-center text-4xl sm:text-4xl lg:text-5xl font-semibold text-gray-800 dark:text-neutral-200"
       >
-        Designing Department
+        Graphics Design Department
       </motion.h1>
       <Carousel
         opts={{

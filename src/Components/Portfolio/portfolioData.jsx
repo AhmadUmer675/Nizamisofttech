@@ -12,6 +12,8 @@ import cayro from "/cayroshopbg.png";
 import Movix from "/movix.svg";
 import Param from "/param.png";
 import Ace from "/acebgr.png";
+import Doors from "/doorsbg.png";
+import hff from "/hff.png";
 
 export const laraveldata = [
   {
@@ -109,5 +111,21 @@ export const laraveldata = [
     type: mern,
     image: Ace,
     link: "https://acemock.vercel.app/",
+  },
+  {
+    id: 13,
+    name: "Hilal Finest Foods",
+    detail: "",
+    type: mern,
+    image: hff,
+    link: "https://halalfinestfoods.ie/",
+  },
+  {
+    id: 14,
+    name: "Opening Doors to Life",
+    detail: "",
+    type: mern,
+    image: Doors,
+    link: "https://openingdoorstolife.org/index.php",
   },
 ];

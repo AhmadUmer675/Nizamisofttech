@@ -1,4 +1,4 @@
-import web from "/web.png";
+import web from "/webbg.png";
 import gd from "/gd.png";
 import sd from "/sd.png";
 

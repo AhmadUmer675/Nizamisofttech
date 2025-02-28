@@ -107,7 +107,7 @@ const Hero = () => {
         <motion.article className="  md:max-w-[60%]   relative  md:mx-0 flex items-center justify-center  mx-auto">
           <motion.img
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            whileInView={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 1.2 }}
             src={hero}
             alt="Image 1"

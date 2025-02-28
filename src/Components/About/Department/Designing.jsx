@@ -1,6 +1,12 @@
 import { designer } from "../aboutData";
 import { motion } from "framer-motion";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../../ui/carousel";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "../../ui/carousel";
 
 const DesigningT = () => {
   return (
@@ -39,17 +45,31 @@ const DesigningT = () => {
               >
                 {/* <!-- Icon --> */}
                 <div className="flex mx-auto text-6xl rounded-lg sm:text-7xl bg-gradient-to-br from-blue-600 to-violet-600">
-                  <img src={data.pic} alt="pics" className="h-[15rem]  md:h-[20rem] md:w-[16rem] xl:h-[22rem] xl:w-[18rem] rounded-2xl border" />
+                  <img
+                    src={data.pic}
+                    alt="pics"
+                    className="h-[15rem]  md:h-[20rem] md:w-[16rem] xl:h-[22rem] xl:w-[18rem] rounded-2xl border"
+                  />
                 </div>
 
                 <div className="mt-3">
-                  <h3 className="text-2xl font-semibold text-gray-800 sm:text-3xl lg:text-4xl dark:text-neutral-200">{data.name}</h3>
+                  <h3 className="text-2xl font-semibold text-gray-800 sm:text-3xl lg:text-4xl dark:text-neutral-200">
+                    {data.name}
+                  </h3>
                 </div>
                 <div className="mt-3">
-                  <h3 className="text-xl text-gray-800 sm:text-2xl dark:text-neutral-200">{data.position}</h3>
+                  <h3 className="text-xl text-gray-800 sm:text-2xl dark:text-neutral-200">
+                    {data.position}
+                  </h3>
                 </div>
                 <div className="mt-3">
-                  <img loading="lazy" decoding="async" src={data.expix} alt="type logo" className="h-16" />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src={data.expix}
+                    alt="type logo"
+                    className="h-16"
+                  />
                 </div>
               </motion.div>
             </CarouselItem>

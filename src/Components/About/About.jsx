@@ -50,7 +50,7 @@ const About = () => {
             <section className="flex items-center justify-center pt-16 md:pt-0">
               <motion.div
                 initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                whileInView={{ scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className=""
               >
